@@ -5,7 +5,7 @@
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 21, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 21, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 article,
 aside,
 details,
@@ -22,7 +22,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 31, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 31, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 audio,
 canvas,
 video {
@@ -34,7 +34,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 42, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 42, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -44,7 +44,7 @@ audio:not([controls]) {
  * and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 53, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 53, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 [hidden] {
   display: none; }
 
@@ -57,7 +57,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 68, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 68, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -70,7 +70,7 @@ html {
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 83, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 83, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 html,
 button,
 input,
@@ -81,7 +81,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE 6/7.
  */
-/* line 91, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 91, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 body {
   margin: 0; }
 
@@ -91,14 +91,14 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 103, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 103, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 a:focus {
   outline: thin dotted; }
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 112, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 112, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -111,32 +111,32 @@ a:hover {
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-/* line 126, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 126, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 131, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 131, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
 
-/* line 136, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 136, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0; }
 
-/* line 141, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 141, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0; }
 
-/* line 146, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 146, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0; }
 
-/* line 151, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 151, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0; }
@@ -144,33 +144,33 @@ h6 {
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-/* line 160, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 160, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 169, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 169, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
 
-/* line 173, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 173, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 blockquote {
   margin: 1em 40px; }
 
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 181, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 181, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /*
  * Addresses styling not present in IE 6/7/8/9.
  */
-/* line 189, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 189, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -178,7 +178,7 @@ mark {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 199, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 199, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 p,
 pre {
   margin: 1em 0; }
@@ -186,7 +186,7 @@ pre {
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 210, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 210, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 code,
 kbd,
 pre,
@@ -198,7 +198,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 220, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 220, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -207,14 +207,14 @@ pre {
 /*
  * Addresses CSS quotes not supported in IE 6/7.
  */
-/* line 230, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 230, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 q {
   quotes: none; }
 
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
-/* line 239, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 239, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -223,14 +223,14 @@ q:after {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 248, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 248, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 small {
   font-size: 80%; }
 
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 257, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 257, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -238,11 +238,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 264, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 264, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 268, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 268, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -252,21 +252,21 @@ sub {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 283, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 283, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 dl,
 menu,
 ol,
 ul {
   margin: 1em 0; }
 
-/* line 287, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 287, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 dd {
   margin: 0 0 0 40px; }
 
 /*
  * Addresses paddings set differently in IE 6/7.
  */
-/* line 297, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 297, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 menu,
 ol,
 ul {
@@ -275,7 +275,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
-/* line 306, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 306, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -288,7 +288,7 @@ nav ol {
  * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.
  */
-/* line 320, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 320, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -298,7 +298,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 329, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 329, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -308,7 +308,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 341, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 341, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 figure {
   margin: 0; }
 
@@ -318,14 +318,14 @@ figure {
 /*
  * Corrects margin displayed oddly in IE 6/7.
  */
-/* line 353, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 353, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 form {
   margin: 0; }
 
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 361, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 361, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -336,7 +336,7 @@ fieldset {
  * 2. Corrects text not wrapping in Firefox 3.
  * 3. Corrects alignment displayed oddly in IE 6/7.
  */
-/* line 373, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 373, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -352,7 +352,7 @@ legend {
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
-/* line 390, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 390, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 button,
 input,
 select,
@@ -370,7 +370,7 @@ textarea {
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 403, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 403, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 button,
 input {
   line-height: normal; }
@@ -384,7 +384,7 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 420, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 420, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -399,7 +399,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 431, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 431, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default; }
@@ -410,7 +410,7 @@ input[disabled] {
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 443, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 443, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -427,7 +427,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 456, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 456, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -440,7 +440,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 469, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 469, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -448,7 +448,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 3+.
  */
-/* line 478, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 478, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -458,7 +458,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 6/7/8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 488, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 488, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -471,7 +471,7 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 501, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_normalize.scss */
+/* line 501, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -479,7 +479,7 @@ table {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 9, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 9, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 html,
 button,
 input,
@@ -487,7 +487,7 @@ select,
 textarea {
   color: #222; }
 
-/* line 13, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 13, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 body {
   font-size: 1em;
   line-height: 1.4;
@@ -498,12 +498,12 @@ body {
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
-/* line 25, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 25, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
 
-/* line 30, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 30, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -511,7 +511,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 39, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 39, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 hr {
   display: block;
   height: 1px;
@@ -523,14 +523,14 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-/* line 52, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 52, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 img {
   vertical-align: middle; }
 
 /*
  * Remove default fieldset styles.
  */
-/* line 60, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 60, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -539,7 +539,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 70, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 70, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 textarea {
   resize: vertical; }
 
@@ -549,7 +549,7 @@ textarea {
 /*
  * Grid - Fluid 960 grid
  */
-/* line 83, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 83, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .container {
   width: 92%;
   max-width: 960px;
@@ -557,7 +557,7 @@ textarea {
   margin: 0 auto;
   position: relative; }
 
-/* line 93, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 93, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .grid_1,
 .grid_2,
 .grid_3,
@@ -567,72 +567,72 @@ textarea {
   margin-left: 1%;
   margin-right: 1%; }
 
-/* line 100, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 100, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .grid_1 {
   width: 31.333%; }
 
-/* line 104, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 104, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .grid_2 {
   width: 64.667%; }
 
-/* line 109, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 109, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .grid_3,
 .grid_full {
   width: 98%; }
 
-/* line 113, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 113, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .grid_right {
   float: right; }
 
 /*
 * Use as necessary for nested content. Also use percents here for fluidity.
 */
-/* line 120, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 120, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .content-pad-right {
   margin-right: 4%; }
 
-/* line 124, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 124, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 .content-pad-left {
   margin-left: 4%; }
 
 /*
  * makes sure images respond to different viewports
  */
-/* line 134, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_core.scss */
+/* line 134, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_core.scss */
 audio,
 img,
 video {
   max-width: 100%; }
 
 /*
- * Go Nuts :D
+ * Go Nuts
  */
 /* ==========================================================================
    Media Queries for Responsive Design.
    Theses examples override the primary ('mobile first') styles.
    ========================================================================== */
 @media only screen and (max-width: 40em) {
-  /* line 7, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_media-queries.scss */
+  /* line 7, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_media-queries.scss */
   html {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none; }
 
-  /* line 12, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_media-queries.scss */
+  /* line 12, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_media-queries.scss */
   body {
     font-size: 82.5%; }
 
-  /* line 16, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_media-queries.scss */
+  /* line 16, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_media-queries.scss */
   .container {
     width: 92%;
     margin: 0 auto; }
 
-  /* line 21, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_media-queries.scss */
+  /* line 21, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_media-queries.scss */
   .grid_1, .grid_2, .grid_3, .grid_full {
     float: none;
     width: 100%;
     margin: 0 0 2.5em; }
 
-  /* line 28, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_media-queries.scss */
+  /* line 28, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_media-queries.scss */
   .content-pad-left,
   .content-pad-right {
     margin-left: 0;
@@ -645,7 +645,7 @@ video {
 /*
  * Image replacement
  */
-/* line 9, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 9, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -653,7 +653,7 @@ video {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 17, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 17, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .ir:before {
   content: "";
   display: block;
@@ -663,7 +663,7 @@ video {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 28, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 28, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -671,7 +671,7 @@ video {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 37, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 37, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -686,7 +686,7 @@ video {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 54, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 54, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -699,7 +699,7 @@ video {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 67, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 67, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .invisible {
   visibility: hidden; }
 
@@ -714,7 +714,7 @@ video {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 84, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 84, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -722,7 +722,7 @@ video {
   display: table;
   /* 2 */ }
 
-/* line 89, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 89, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .clearfix:after {
   clear: both; }
 
@@ -730,7 +730,7 @@ video {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 98, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_helper.scss */
+/* line 98, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_helper.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -739,7 +739,7 @@ video {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 7, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 7, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -747,59 +747,59 @@ video {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 15, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 15, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 19, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 19, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 23, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 23, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 33, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 33, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 38, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 38, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 43, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 43, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 48, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 48, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 52, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 52, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 62, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 62, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 68, /Users/jakebresnehan/Dropbox/Code/Basic HTML Template/scss/_print.scss */
+  /* line 68, /Users/jakebresnehan/Dropbox/Code/Templates/HTML-Template/scss/_print.scss */
   h2,
   h3 {
     page-break-after: avoid; } }
