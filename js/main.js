@@ -3,8 +3,12 @@
    ========================================================================== */
 
 
+// FitVid's added because not too many sites don't have video's these days
 
-
+ // $(document).ready(function(){
+ //    // Target your .container, .wrapper, .post, etc.
+ //    //$("#thing-with-videos").fitVids();
+ //  });
 
 
 
