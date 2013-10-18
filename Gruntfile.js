@@ -11,11 +11,20 @@
         // https://github.com/gruntjs/grunt-contrib-watch
         watch: {
                 // task target
+                options: {
+                    livereload: true,
+                },
                 sass: {
                         // watch the .scss files in the sass directory and children directories
                         files: ['sass/*.scss'],
                         // this task is run when the watch sees a .scss file changed
-                        tasks: ['sass']
+                        tasks: ['sass'],
+
+                },
+                html: {
+                        // watch the .scss files in the sass directory and children directories
+                        files: ['*.html'],
+                        // this task is run when the watch sees a .scss file changed
                 }
         },
         // https://github.com/gruntjs/grunt-contrib-sass
@@ -24,22 +33,59 @@
                         // you can also specify the files dynamically so you don't have to specify every
                         // file manually. Also useful to preserve the existing folder structure
                         // https://github.com/gruntjs/grunt/wiki/Configuring-tasks#building-the-files-object-dynamically
-                        files: [{
+                        files: [
+                            {
                                 // this is the sass output style
                                 expand: true,
                                 // now load all .scss files from the compile directory
-                                src: ['sass/*.sass'],
+                                src: ['**/*.scss', '!**/_*.scss'],
+                                cwd: 'sass',
                                 // after compiling the .scss files, places them into the css directory
                                 dest: 'css',
                                 // give the compiled files the .css file extension
                                 ext: '.css'
-                        }]
+                            }
+                        ],
+                        options : {
+                            style : 'expanded'
+                        }
                 }
-        }
-        });
+        },
+
+       // https://github.com/nDmitry/grunt-autoprefixer
+        autoprefixer: {
+          build: {
+            options: {
+              browsers: ['last 2 versions', '> 1%']
+            },
+            files: [
+              {
+                src : ['**/*.css', '!**/*autoprefixed.css'],
+                cwd : 'css',
+                dest : 'css',
+                ext : '.autoprefixed.css',
+                expand : true
+              }
+            ]
+          }
+        },
+
+        connect: {
+          server: {
+            options: {
+              port: 8000,
+              base: './'
+            }
+          }
+        },
+
+    });
 
         // we register the default task which is run with the command `grunt`
         // by setting default you can have multiple task run as the default grunt command.
         // you can also run 'grunt sass' or 'grunt watch' to access the individual task.
-        grunt.registerTask('default', ['sass']);
+        grunt.registerTask('default', ['sass', 'autoprefixer']);
+
+        grunt.registerTask('dev', ['connect', 'watch']);
+
         };

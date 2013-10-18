@@ -1,10 +1,13 @@
 /*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
+
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
+
 article,
 aside,
 details,
@@ -22,6 +25,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
+
 audio,
 canvas,
 video {
@@ -34,6 +38,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -44,6 +49,7 @@ audio:not([controls]) {
  * and Safari 4.
  * Known issue: no IE 6 support.
  */
+
 [hidden] {
   display: none;
 }
@@ -51,12 +57,14 @@ audio:not([controls]) {
 /* ==========================================================================
    Base
    ========================================================================== */
+
 /*
  * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *    `em` units.
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
 html {
   font-size: 100%;
   /* 1 */
@@ -70,6 +78,7 @@ html {
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
+
 html,
 button,
 input,
@@ -81,6 +90,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE 6/7.
  */
+
 body {
   margin: 0;
 }
@@ -88,9 +98,11 @@ body {
 /* ==========================================================================
    Links
    ========================================================================== */
+
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
+
 a:focus {
   outline: thin dotted;
 }
@@ -98,6 +110,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
+
 a:active,
 a:hover {
   outline: 0;
@@ -106,11 +119,13 @@ a:hover {
 /* ==========================================================================
    Typography
    ========================================================================== */
+
 /*
  * Addresses font sizes and margins set differently in IE 6/7.
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -144,6 +159,7 @@ h6 {
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -151,6 +167,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
+
 b,
 strong {
   font-weight: bold;
@@ -163,6 +180,7 @@ blockquote {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
+
 dfn {
   font-style: italic;
 }
@@ -170,14 +188,16 @@ dfn {
 /*
  * Addresses styling not present in IE 6/7/8/9.
  */
+
 mark {
-  background: #ff0;
-  color: #000;
+  background: yellow;
+  color: black;
 }
 
 /*
  * Addresses margins set differently in IE 6/7.
  */
+
 p,
 pre {
   margin: 1em 0;
@@ -186,6 +206,7 @@ pre {
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
+
 code,
 kbd,
 pre,
@@ -198,6 +219,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
+
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -207,6 +229,7 @@ pre {
 /*
  * Addresses CSS quotes not supported in IE 6/7.
  */
+
 q {
   quotes: none;
 }
@@ -214,6 +237,7 @@ q {
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
+
 q:before,
 q:after {
   content: '';
@@ -223,6 +247,7 @@ q:after {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
+
 small {
   font-size: 80%;
 }
@@ -230,6 +255,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
+
 sub,
 sup {
   font-size: 75%;
@@ -249,9 +275,11 @@ sub {
 /* ==========================================================================
    Lists
    ========================================================================== */
+
 /*
  * Addresses margins set differently in IE 6/7.
  */
+
 dl,
 menu,
 ol,
@@ -266,6 +294,7 @@ dd {
 /*
  * Addresses paddings set differently in IE 6/7.
  */
+
 menu,
 ol,
 ul {
@@ -275,6 +304,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
+
 nav ul,
 nav ol {
   list-style: none;
@@ -284,10 +314,12 @@ nav ol {
 /* ==========================================================================
    Embedded content
    ========================================================================== */
+
 /*
  * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.
  */
+
 img {
   border: 0;
   /* 1 */
@@ -298,6 +330,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -305,9 +338,11 @@ svg:not(:root) {
 /* ==========================================================================
    Figures
    ========================================================================== */
+
 /*
  * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
+
 figure {
   margin: 0;
 }
@@ -315,9 +350,11 @@ figure {
 /* ==========================================================================
    Forms
    ========================================================================== */
+
 /*
  * Corrects margin displayed oddly in IE 6/7.
  */
+
 form {
   margin: 0;
 }
@@ -325,8 +362,9 @@ form {
 /*
  * Define consistent border, margin, and padding.
  */
+
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -336,6 +374,7 @@ fieldset {
  * 2. Corrects text not wrapping in Firefox 3.
  * 3. Corrects alignment displayed oddly in IE 6/7.
  */
+
 legend {
   border: 0;
   /* 1 */
@@ -352,6 +391,7 @@ legend {
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
+
 button,
 input,
 select,
@@ -370,6 +410,7 @@ textarea {
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+
 button,
 input {
   line-height: normal;
@@ -384,6 +425,7 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
+
 button,
 html input[type="button"],
 input[type="reset"],
@@ -399,6 +441,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
+
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -410,8 +453,11 @@ input[disabled] {
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
+
 input[type="checkbox"],
 input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -427,6 +473,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
+
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -440,6 +487,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -448,6 +496,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 3+.
  */
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -458,6 +507,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 6/7/8/9.
  * 2. Improves readability and alignment in all browsers.
  */
+
 textarea {
   overflow: auto;
   /* 1 */
@@ -468,9 +518,11 @@ textarea {
 /* ==========================================================================
    Tables
    ========================================================================== */
+
 /*
  * Remove most spacing between table cells.
  */
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -479,12 +531,13 @@ table {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+
 html,
 button,
 input,
 select,
 textarea {
-  color: #222;
+  color: #222222;
 }
 
 body {
@@ -498,6 +551,7 @@ body {
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -511,11 +565,12 @@ body {
 /*
  * A better looking default horizontal rule
  */
+
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
   margin: 1em 0;
   padding: 0;
 }
@@ -523,6 +578,7 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
+
 img {
   vertical-align: middle;
 }
@@ -530,6 +586,7 @@ img {
 /*
  * Remove default fieldset styles.
  */
+
 fieldset {
   border: 0;
   margin: 0;
@@ -539,6 +596,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
+
 textarea {
   resize: vertical;
 }
@@ -546,9 +604,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 /*
  * Grid - Fluid 960 grid
  */
+
 .container {
   width: 92%;
   max-width: 960px;
@@ -587,6 +647,7 @@ textarea {
 /*
 * Use as necessary for nested content. Also use percents here for fluidity.
 */
+
 .content-pad-right {
   margin-right: 4%;
 }
@@ -598,6 +659,7 @@ textarea {
 /*
  * makes sure images respond to different viewports
  */
+
 audio,
 img,
 video {
@@ -607,10 +669,12 @@ video {
 /*
  * Go Nuts
  */
+
 /* ==========================================================================
    Media Queries for Responsive Design.
    Theses examples override the primary ('mobile first') styles.
    ========================================================================== */
+
 @media only screen and (max-width: 40em) {
   html {
     -webkit-text-size-adjust: none;
@@ -626,7 +690,10 @@ video {
     margin: 0 auto;
   }
 
-  .grid_1, .grid_2, .grid_3, .grid_full {
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_full {
     float: none;
     width: 100%;
     margin: 0 0 2.5em;
@@ -638,15 +705,23 @@ video {
     margin-right: 0;
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
-  /* Style adjustments for high resolution devices */
+
+@media only screen and (min-width: 75em) {
+
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 /*
  * Image replacement
  */
+
 .ir {
   background-color: transparent;
   border: 0;
@@ -665,6 +740,7 @@ video {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
+
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -673,6 +749,7 @@ video {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -688,6 +765,7 @@ video {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -701,6 +779,7 @@ video {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
+
 .invisible {
   visibility: hidden;
 }
@@ -716,6 +795,7 @@ video {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -732,6 +812,7 @@ video {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
+
 .clearfix {
   *zoom: 1;
 }
@@ -740,11 +821,21 @@ video {
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
+
 @media print {
+  /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+@page {
+    margin: 0.5cm;
+}
+
   * {
     background: transparent !important;
-    color: #000 !important;
+    color: black !important;
     /* Black prints faster: h5bp.com/s */
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -762,9 +853,6 @@ video {
     content: " (" attr(title) ")";
   }
 
-  /*
-   * Don't show links for images, or javascript/internal links
-   */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
@@ -773,7 +861,7 @@ video {
 
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
@@ -791,9 +879,6 @@ video {
     max-width: 100% !important;
   }
 
-  @page {
-    margin: 0.5cm;
-  }
   p,
   h2,
   h3 {
