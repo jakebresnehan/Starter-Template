@@ -10,7 +10,7 @@ Simple starter template
 
 
 To-do
-added bower components
+add bower components
 clean sass
 clean markup
 
