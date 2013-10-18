@@ -10,6 +10,8 @@ Simple starter template
 
 
 To-do
+add linting (css / js to Gruntfile)
+html inspector
 add bower components
 clean sass
 clean markup
